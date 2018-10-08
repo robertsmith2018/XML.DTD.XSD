@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Cours (session, horaire+, professeur+, etudiant+)>
+<!ELEMENT session (#PCDATA)>
+<!ELEMENT horaire (#PCDATA)>
+<!ELEMENT professeur (nom, prenom, courriel)>
+<!ELEMENT etudiant (nom, prenom, courriel)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT courriel (#PCDATA)>
+
+<!ATTLIST Cours sigle CDATA "" >
+<!ATTLIST Cours nom CDATA "" >
+
+<!ATTLIST professeur code CDATA "" >
+<!ATTLIST etudiant numeroAdmission CDATA ""  >

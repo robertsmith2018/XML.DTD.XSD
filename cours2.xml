@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cours SYSTEM "cours2.dtd">
+	<Cours sigle="420-111-GG" nom="Technologies XML">
+		<session>A2028</session>
+		<horaire>Lundi 8h-11h</horaire>
+		<horaire>Mercredi 8h-11h</horaire>
+		<horaire>Vendredi 12h-15h</horaire>
+		<professeur code="552">
+			<nom>Fostine</nom>
+			<prenom>kerlyne</prenom>
+			<courriel>k.fostine@cgodin.qc.ca</courriel>
+		</professeur>
+		<professeur code="553">
+			<nom>Derbali</nom>
+			<prenom>Lotfi</prenom>
+			<courriel>l.derbali@cgodin.qc.ca</courriel>
+		</professeur>
+		<etudiant numeroAdmission="562565">
+			<nom>Assaker</nom>
+			<prenom>Rabih</prenom>
+			<courriel>a.rabih@cgodin.qc.ca</courriel>
+		</etudiant>
+		<etudiant numeroAdmission="562566">
+			<nom>Benameur</nom>
+			<prenom>Otmane</prenom>
+			<courriel>b.Otmane@cgodin.qc.ca</courriel>
+		</etudiant>
+		<etudiant numeroAdmission="562567">
+			<nom>Chitou</nom>
+			<prenom>Chams</prenom>
+			<courriel>c.chams@cgodin.qc.ca</courriel>
+		</etudiant>
+		<etudiant numeroAdmission="562568">
+			<nom>Cruz</nom>
+			<prenom>Edgar</prenom>
+			<courriel>c.cruz@cgodin.qc.ca</courriel>
+		</etudiant>
+		
+	</Cours>
